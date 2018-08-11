@@ -35,14 +35,14 @@ public class Practice4DrawPointView extends View {
         mPaint1.setColor(Color.BLACK);
         mPaint1.setStyle(Paint.Style.FILL_AND_STROKE);
         mPaint1.setStrokeCap(Paint.Cap.ROUND);
-        mPaint1.setStrokeWidth(40);
+        mPaint1.setStrokeWidth(60);
 
         mPaint2 = new Paint();
         mPaint2.setAntiAlias(true);
         mPaint2.setColor(Color.BLACK);
         mPaint2.setStyle(Paint.Style.FILL_AND_STROKE);
         mPaint2.setStrokeCap(Paint.Cap.SQUARE);
-        mPaint2.setStrokeWidth(40);
+        mPaint2.setStrokeWidth(60);
     }
 
     @Override

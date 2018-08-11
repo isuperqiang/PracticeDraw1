@@ -40,10 +40,10 @@ public class Practice3DrawRectView extends View {
         super.onDraw(canvas);
 
         //        练习内容：使用 canvas.drawRect() 方法画矩形
-        int left = mWidth / 2 - 150;
-        int right = mWidth / 2 + 150;
-        int top = mHeight / 2 - 100;
-        int bottom = mHeight / 2 + 100;
+        int left = mWidth / 2 - 200;
+        int right = mWidth / 2 + 200;
+        int top = mHeight / 2 - 200;
+        int bottom = mHeight / 2 + 200;
         canvas.drawRect(left, top, right, bottom, mPaint);
     }
 

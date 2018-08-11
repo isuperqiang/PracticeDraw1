@@ -46,7 +46,7 @@ public class Practice5DrawOvalView extends View {
 
         //        练习内容：使用 canvas.drawOval() 方法画椭圆
 
-        mRectF.set(mWidth / 2 - 200, 100, mWidth / 2 + 200, 400);
+        mRectF.set(mWidth / 2 - 200, 100, mWidth / 2 + 200, 300);
         canvas.drawOval(mRectF, mPaint);
     }
 

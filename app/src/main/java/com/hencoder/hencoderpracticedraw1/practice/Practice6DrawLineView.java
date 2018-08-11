@@ -31,7 +31,7 @@ public class Practice6DrawLineView extends View {
         mPaint.setAntiAlias(true);
         mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
         mPaint.setColor(Color.BLACK);
-        mPaint.setStrokeWidth(8);
+        mPaint.setStrokeWidth(10);
     }
 
     @Override
@@ -40,6 +40,6 @@ public class Practice6DrawLineView extends View {
 
 //        练习内容：使用 canvas.drawLine() 方法画直线
 
-        canvas.drawLine(200, 100, 400, 300, mPaint);
+        canvas.drawLine(200, 100, 500, 300, mPaint);
     }
 }

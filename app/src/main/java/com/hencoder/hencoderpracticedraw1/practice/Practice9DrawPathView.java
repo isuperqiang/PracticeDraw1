@@ -50,7 +50,7 @@ public class Practice9DrawPathView extends View {
         mPath.arcTo(mWidth / 2, 100, mWidth / 2 + 200, 300, -180, 225, true);
         mPath.lineTo(mWidth / 2, 440);
         mPath.lineTo((float) (mWidth / 2 - 170.72), (float) 270.72);
-        mPath.arcTo(mWidth / 2 - 200, 100, mWidth / 2, 300, -225, 225, true);
+        mPath.arcTo(mWidth / 2 - 200, 100, mWidth / 2, 300, 135, 225, true);
 
         canvas.drawPath(mPath, mPaint);
     }
